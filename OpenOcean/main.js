@@ -21,9 +21,12 @@ var Web3 = require('web3');
 
 var web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
 web3.eth.getAccounts(console.log);
+var Contract = require('web3-eth-contract');
 
+// set provider for all later instances to use
+Contract.setProvider('ws://localhost:8545');
 
-var contract = new web3.eth.Contract(jsonInterface, address);
+var contract = new Contract(jsonInterface, address);
 
 
 //get contract

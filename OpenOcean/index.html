@@ -1,24 +1,36 @@
+<!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<center><b><p style="font-size:50px">Open Ocean</p></b></center>
 
-<center><b><p style="font-size:50px">DeFi Loan with Polygon Example</p></b></center>
 
 
 
-Current Value in Lending Pool:
-<p>
+<p style="font-size: 30px;">Current Value in Lending Pool:</p>
+<style>
+html{
+  background-image:url('waves.jpg');
+}
 
+  
+  html{
+    text-align: center;
+  }
+</style>
 <form>
-  <label for="deposit">Deposit Amount:</label><br>
+  <label for="deposit" style="font-size: 20px;">Deposit Amount:</label><br>
   <input type="text" id="deposit" name="deposit"><br>
-   <input type="submit" value="Submit">
+   <input type="submit" value="Submit" style="font-size: 20px; color:rgb(171, 21, 21)" >
 </form>
 
+ 
+
 <form>
-  <label for="withdrawal">Withdrawal Amount:</label><br>
+  <label for="withdrawal" style="font-size: 20px;">Withdrawal Amount:</label><br>
   <input type="text" id="withdrawal" name="withdrawal"><br>
-   <input type="submit" value="Submit">
+   <input type="submit" value="Submit" style="font-size: 20px; color:rgb(171, 21, 21);">
 </form>
-<h1 id="accounts">test</h1>
+<h1 id="accounts">Test</h1>
 
 
 
@@ -34,6 +46,8 @@ Current Value in Lending Pool:
           console.log('No Web3 Detected... get Metamask');
         }
       })
+   
+
 
       function getBalance() {
         var wei, balance
@@ -57,6 +71,9 @@ Current Value in Lending Pool:
 
     <body>
     <button type="button" onClick="getBalance();">Get Balance</button>
+    <style> button{
+      font-size: 20px;
+    }</style>
     <br />
     <br />
     <div id="output"></div>

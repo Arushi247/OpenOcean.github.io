@@ -4,7 +4,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
 
 ## About me
 
-This is bassically a blockchain model, as we all know transferring and withdrawing money from banks have become a monopoly so we have tried to create a decentralized website where one can lend and withdraw money and in the website itself you can check your balance.
+This is our blockchain model; here, we have created a decentralized website where one can check their balance, lend and withdraw money. The reason this model had to be created is due to the fact that we all know how now transferring and withdrawing money from a bank has become a huge monoply.
 
 
 ## Contents

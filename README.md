@@ -10,22 +10,26 @@ This is our blockchain model; here, we have created a decentralized website wher
 ## Contents
 
 -Blockchain
-    
-    -Smart Contracts
+
+    - Smart Contracts
   
   -Related Tools
     
-    -Solidity
-    -truffle
-    -web3.js
+    - Solidity
+    - Truffle
+    - Web3.js
 
 -Frontend
     
-    -HTML
-    -CSS
-    -Javascript
-    -Figma
-
-
-
-
+    - HTML
+    - CSS
+    - Javascript
+    - Figma
+    
+    
+-Created By
+    
+        - Khushi Suri
+        - Arushi Gupta
+        - Shubha Jaiswal
+        - Riya Sisodia

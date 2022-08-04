@@ -33,3 +33,10 @@ This is our blockchain model; here, we have created a decentralized website wher
         - Arushi Gupta
         - Shubha Jaiswal
         - Riya Sisodia
+        
+        
+<img src="https://www.treehugger.com/thmb/G6SFNUnO7diHPKV-TUh8eIQTqLg=/2121x1193/smart/filters:no_upscale()/GettyImages-999984172-67c189dff547488095227056d32c721c.jpg" width="2000" height="200" />
+
+
+        
+        
